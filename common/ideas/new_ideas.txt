@@ -1,0 +1,78 @@
+ideas = {
+
+	country = {
+		american_collapse = {
+			picture = american_collapse
+			
+			allowed = {
+				tag = USA
+				tag = NYC
+				tag = NEG
+				tag = CON
+				tag = NSC
+				tag = VIR
+				tag = KET
+				tag = TEN
+				tag = IOW
+				tag = MIN
+				tag = MOA
+				tag = LOU
+				tag = TEX
+				tag = INT
+				tag = KAN
+				tag = NEB
+				tag = DAK
+				tag = MON
+				tag = ORE
+				tag = UTH
+				tag = CAL
+			}
+			
+			available = {
+			}
+			
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_cost = 0.3
+				stability_factor = -0.20
+				war_support_factor = 0.10
+			}
+		}
+	}
+	
+	country = {
+		radicals = {
+			picture = american_collapse
+			
+			allowed = {
+				tag = USA
+			}
+			
+			available = {
+			}
+			
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				fascism_drift = 0.01
+				communism_drift = 0.01
+				stability_factor = -0.10
+			}
+		}
+	}
+}

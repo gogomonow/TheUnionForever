@@ -1,0 +1,182 @@
+### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+### search_filters = {FOCUS_FILTER_USA_CONGRESS}
+
+focus_tree = {
+	id = usa_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = USA
+		}
+		
+		modifier = {
+			add = 10
+			original_tag = USA
+		}
+	}
+	
+	continuous_focus_position = { x = 50 y = 1600 }
+	
+	default = no
+	
+	focus = {
+		id = USA_1936
+		icon = GFX_usa_1936
+		x = 10
+		y = 0
+		#relative_position_id = 
+
+		#prerequisite = { focus = }
+		cost = 1
+
+		mutually_exclusive = { focus = }
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = USA_Lindbergs_return
+		icon = GFX_lindbergs_return
+		x = 2
+		y = 1
+		relative_position_id = USA_1936
+		
+		prerequisite = { focus = USA_1936 }
+		cost = 10
+		
+		mutually_exclusive = { focus = USA_general_strike }
+		mutually_exclusive = { focus = USA_all_is_normal }
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_popularity = { ideology = fascism popularity = 0.1 }
+		}
+	}
+	
+	focus = {
+		id = USA_all_is_normal
+		icon = GFX_all_is_normal
+		x = 0
+		y = 1
+		relative_position_id = USA_1936
+		
+		prerequisite = { focus = USA_1936 }
+		cost = 10
+		
+		mutually_exclusive = { focus = USA_Lindbergs_return }
+		mutually_exclusive = { focus = USA_general_strike }
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = USA_general_strike
+		icon = GFX_general_strike
+		x = -2
+		y = 1
+		relative_position_id = USA_1936
+		
+		prerequisite = { focus = USA_1936 }
+		cost = 10
+		
+		mutually_exclusive = { focus = USA_Lindbergs_return }
+		mutually_exclusive = { focus = USA_all_is_normal }
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_popularity = { ideology = communism popularity = 0.1 }
+		}
+	}
+	
+	focus = {
+		id = USA_Lindbergs_speech
+		icon = GFX_lindbergs_speech
+		x = 0
+		y = 1
+		relative_position_id = USA_Lindbergs_return
+		
+		prerequisite = { focus = USA_Lindbergs_return }
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_popularity = { ideology = fascism popularity = 0.05 }
+		}
+	}
+}
