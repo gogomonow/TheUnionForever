@@ -1,0 +1,16 @@
+state={
+	id=836
+	name="STATE_836"
+	history = {
+		owner = MEX
+		add_core_of = ARZ
+		add_core_of = NEW
+	}
+	provinces={
+		1972 5044 10645 10914 12552 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=rural
+}

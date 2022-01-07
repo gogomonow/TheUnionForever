@@ -1,0 +1,16 @@
+state={
+	id=837
+	name="STATE_837"
+	history = {
+		owner = CAN
+		add_core_of = IDA
+		add_core_of = CAN
+	}
+	provinces={
+		1832 3781 4778 12124 
+	}
+	manpower=101010
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=rural
+}
