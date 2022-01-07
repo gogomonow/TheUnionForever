@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+	name = "GFX_TUF_bookmark"
+	texturefile = "gfx/interface/select_date_TUF.dds"
+	}
+}	
