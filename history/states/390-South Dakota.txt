@@ -6,12 +6,13 @@ state={
 	state_category = rural
 
 	history={
-		owner = DAK
+		owner = NEB
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
 		}
 		add_core_of = DAK
+		add_core_of = NEB
 		victory_points = {
 			1747 1 
 		}

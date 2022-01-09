@@ -9,12 +9,13 @@ state={
 	}
 
 	history={
-		owner = MTN
+		owner = NEB
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
 		}
 		add_core_of = MTN
+		add_core_of = NEB
 		victory_points = {
 			4860 1 
 		}
