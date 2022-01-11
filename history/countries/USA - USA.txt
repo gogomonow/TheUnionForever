@@ -1,5 +1,8 @@
 ﻿capital = 361
 
+puppet = MIN
+puppet = IOW
+
 oob = "USA_1936"
 
 starting_train_buffer = 5

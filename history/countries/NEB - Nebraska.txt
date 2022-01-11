@@ -69,6 +69,7 @@ set_popularities = {
 
 add_ideas = {
 	american_collapse
+	limited_conscription
 }
 
 1939.1.1 = {
