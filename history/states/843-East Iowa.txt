@@ -1,0 +1,19 @@
+state={
+	id=843
+	name="STATE_843"
+	provinces={
+		1831 4664 9910 10478 
+	}
+	
+	history={
+		owner = USA
+		
+		add_core_of = USA
+		add_core_of = IOW
+	}
+	
+	manpower=51269
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}
