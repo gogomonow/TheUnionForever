@@ -7,12 +7,6 @@ state={
 	
 	history={
 		owner = CON
-		buildings = {
-			10352 = {
-				naval_base = 1
-
-			}
-		}
 		add_core_of = CON
 	}	
 	
