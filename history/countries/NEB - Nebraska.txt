@@ -88,9 +88,9 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Robert Cochran"
-	desc = "The Emperor of Nebraska"
-	picture = "Robert_Cochran.dds"
+	name = "John Pershing"
+	desc = "President and Commander in Chief of The Provisional republic of America."
+	picture = "john_pershing.dds"
 	ideology = fascism_ideology
 	traits = {
 		#

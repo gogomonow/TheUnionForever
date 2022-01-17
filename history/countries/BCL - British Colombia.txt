@@ -1,21 +1,13 @@
-﻿capital = 367
-
-puppet = VIR
-
-set_research_slots = 3
-
-oob = "CON_1936"
+﻿capital = 473
 
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
 }
 
-set_convoys = 10
+set_convoys = 20
 
 1939.1.1 = {
-
-	add_political_power = 1198
 	
 	#generic focuses
 	complete_national_focus = army_effort
@@ -23,20 +15,21 @@ set_convoys = 10
 	complete_national_focus = motorization_effort
 	complete_national_focus = aviation_effort
 	complete_national_focus = naval_effort
-	complete_national_focus = flexible_navy
+	complete_national_focus = large_navy
 	complete_national_focus = industrial_effort
 	complete_national_focus = construction_effort
 	complete_national_focus = production_effort
 	
-	oob = "LIB_1939"
 	set_technology = {
+		tech_support = 1
+		tech_recon = 1
+		support_weapons = 1
+		gw_artillery = 1
+
 		#doctrines
 		air_superiority = 1
-		
-		mass_assault = 1
-		pocket_defence = 1
-		defence_in_depth = 1
-
+		grand_battle_plan = 1
+		trench_warfare = 1
 		fleet_in_being = 1
 		battlefleet_concentration = 1
 		convoy_sailing = 1
@@ -46,12 +39,12 @@ set_convoys = 10
 		radio = 1
 		radio_detection = 1
 		mechanical_computing = 1
+		computing_machine = 1
 
 		#industry
 		basic_machine_tools = 1
 		improved_machine_tools = 1
 		advanced_machine_tools = 1
-		fuel_silos = 1
 		construction1 = 1
 		construction2 = 1
 		dispersed_industry = 1
@@ -59,39 +52,42 @@ set_convoys = 10
 	}
 }
 
+
 set_politics = {
-	ruling_party = fascism
+	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
-	democratic = 5
-	fascism = 80
+	democratic = 25
+	fascism = 20
 	communism = 5
-	neutrality = 10
+	neutrality = 50
 }
-
-create_country_leader = {
-	name = "Hiram Wesley Evans"
-	desc = "Imperial Wizard of the CSA and the KKK."
-	picture = "gfx/leaders/CSA/Hiram_Evans.dds"
-	ideology = fascism_ideology
-	traits = {
-		
-	}
-}
-
-add_ideas = {
-	american_collapse
-}
-
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = democratic
-		last_election = "1939.1.1"
+		ruling_party = neutrality
+		last_election = "1936.1.1"
 		election_frequency = 48
-		elections_allowed = yes
+		elections_allowed = no
+	}
+	set_popularities = {
+		democratic = 25
+		fascism = 20
+		communism = 5
+		neutrality = 50
+	}
+}
+
+create_country_leader = {
+	name = "Ahmed Ben Bella"
+	desc = ""
+	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
+	ideology = despotism
+	traits = {
+		#
 	}
 }

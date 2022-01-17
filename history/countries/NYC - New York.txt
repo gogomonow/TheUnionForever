@@ -54,17 +54,17 @@ set_convoys = 20
 
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = Democratic
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 25
-	fascism = 20
-	communism = 5
-	neutrality = 50
+	democratic = 70
+	fascism = 15
+	communism = 10
+	neutrality = 5
 }
 
 add_ideas = {
@@ -73,7 +73,7 @@ add_ideas = {
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = democratic
 		last_election = "1936.1.1"
 		election_frequency = 48
 		elections_allowed = no
@@ -87,10 +87,10 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Herbert H. Lehman"
+	name = "Franklin D Roosevelt"
 	desc = "The President of New York"
-	picture = "Herbert_Lehman.dds"
-	ideology = despotism
+	picture = "Portrait_USA_Franklin_Roosevelt.dds"
+	ideology = liberalism
 	traits = {
 		#
 	}

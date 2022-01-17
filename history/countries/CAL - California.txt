@@ -80,9 +80,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Upton Sinclair"
+	name = "Charlie Chaplin"
 	desc = "Socialist Californian candidate"
-	picture = "Upton_Sinclair.dds"
+	picture = "charlie_chaplin.dds"
 	ideology = marxism
 	traits = {
 		#

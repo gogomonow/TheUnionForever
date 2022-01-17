@@ -289,7 +289,7 @@ add_ideas = {
 	}
 }
 
-recruit_character = USA_earl_browder
+recruit_character = USA_upton_sinclair
 recruit_character = USA_william_dudley_pelley
 recruit_character = USA_franklin_delano_roosevelt
 recruit_character = USA_george_s_patton
