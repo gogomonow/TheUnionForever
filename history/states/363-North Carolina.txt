@@ -4,7 +4,7 @@ state={
 	name="STATE_363"
 
 	history={
-		owner = NSC
+		owner = VIR
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 3
@@ -15,7 +15,7 @@ state={
 			}
 
 		}
-		add_core_of = NSC
+		add_core_of = VIR
 		victory_points = {
 			7138 3 
 		}
@@ -23,9 +23,10 @@ state={
 	}
 
 	provinces={
-		1019 1077 1132 1163 4168 6943 7045 7083 7138 7643 9876 9967 10051 10081 10096 10468 10495 11783 11927 12054 12445 
+		1019 1077 1132 1163 4168 6943 7045 7083 9876 10051 10081 10468 11783 11927 12054 12445 
 	}
-	manpower=3170274
+	manpower=3190274
 	buildings_max_level_factor=1.000
 	state_category=city
+	local_supplies=0.000
 }

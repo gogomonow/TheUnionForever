@@ -1,0 +1,19 @@
+state={
+	id=848
+	name="STATE_848"
+	provinces={
+		891 894 3693 3897 6882 
+	}
+	
+	history={
+		owner = NYC
+		
+		add_core_of = NYC
+		add_core_of = USA
+	}
+	
+	manpower=513000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

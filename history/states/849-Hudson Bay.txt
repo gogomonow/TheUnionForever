@@ -1,0 +1,18 @@
+state={
+	id=849
+	name="STATE_849"
+	provinces={
+		490 761 763 1299 1657 1769 1782 1785 3208 3736 3911 4666 4753 4784 4869 4875 6740 7364 7794 9740 10176 10621 11571 11682 11902 12147 12600 12701 13094 13162 13164 13165 13166 13181 13184 13186 13196 
+	}
+	
+		history={
+		owner = HBC
+		
+		add_core_of = HBC
+	}
+	
+	manpower=105060
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

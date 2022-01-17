@@ -1,0 +1,19 @@
+state={
+	id=847
+	name="STATE_847"
+	provinces={
+		865 873 951 6846 11873 
+	}
+	
+	history={
+		owner = USA
+		
+		add_core_of = USA
+		add_core_of = VIR
+	}
+	
+	manpower=532309
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

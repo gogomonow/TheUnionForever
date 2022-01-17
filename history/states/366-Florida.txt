@@ -4,7 +4,7 @@ state={
 	name="STATE_366"
 
 	history={
-		owner = CON
+		owner = ROT
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 3
@@ -22,7 +22,7 @@ state={
 				naval_base = 1
 			}
 		}
-		add_core_of = CON
+		add_core_of = ROT
 		victory_points = {
 			1843 5 
 		}
@@ -32,7 +32,7 @@ state={
 	provinces={
 		866 1556 1572 1584 1843 1913 7388 9834 10407 10489 12353 12381 12439 12752 
 	}
-	manpower=1468210
+	manpower=1268210
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000

@@ -7,9 +7,9 @@ state={
 		add_core_of = NEG
 	}
 	provinces={
-		4445 7629 9675 13158 
+		718 908 4445 6909 7629 9675 9847 9850 13158 
 	}
-	manpower=357000
+	manpower=1357000
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 	state_category=town

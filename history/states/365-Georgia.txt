@@ -2,12 +2,12 @@
 state={
 	id=365
 	name="STATE_365"
-	manpower = 2908504
+	manpower = 2608504
 	
 	state_category = city
 
 	history={
-		owner = CON
+		owner = ROT
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 3
@@ -16,7 +16,7 @@ state={
 				naval_base = 1
 			}
 		}
-		add_core_of = CON
+		add_core_of = ROT
 		victory_points = {
 			12384 10 
 		}
