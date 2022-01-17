@@ -1,5 +1,17 @@
 #reload countrycolors
 
+HBC = {
+	color = rgb { 130 73 36 }
+	color_ui = rgb { 130 73 36 }
+}
+BCL = {
+	color = rgb { 99 124 88 }
+	color_ui = rgb { 99 124 88 }
+}
+ROT = {
+	color = rgb { 38 127 0 }
+	color_ui = rgb { 38 127 0 }
+}
 NYC = {
 	color = rgb { 216 235 255 }
 	color_ui = rgb { 216 235 255 }
