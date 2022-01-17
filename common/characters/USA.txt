@@ -1,9 +1,9 @@
 characters={
 	USA_franklin_delano_roosevelt={
-		name=USA_franklin_delano_roosevelt
+		name= "James M Cox"
 		portraits={
 			civilian={
-				large="gfx/leaders/USA/Portrait_USA_Franklin_Roosevelt.dds"
+				large="gfx/leaders/USA/James_Cox.dds"
 			}
 		}
 		country_leader={
@@ -43,7 +43,7 @@ characters={
 		}
 	}
 
-	USA_earl_browder={
+	USA_upton_sinclair={
 		name= "Upton Sinclair"
 		portraits={
 			civilian={
