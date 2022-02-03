@@ -1,5 +1,13 @@
 #reload countrycolors
 
+KUK = {
+	color = rgb { 0  53  150 }
+	color_ui = rgb { 0  53  150 }
+}
+RHI = {
+	color = rgb { 55 183 0 }
+	color_ui = rgb { 55 183 0 }
+}
 HBC = {
 	color = rgb { 130 73 36 }
 	color_ui = rgb { 130 73 36 }
@@ -102,8 +110,8 @@ CAL = {
 	color_ui = rgb { 189 138 94 }
 }
 GER = {
-	color = HSV { 0.1 0.15 0.4 }
-	color_ui = rgb { 138 155 116 }
+	color = rgb { 178 28 28 }
+	color_ui = rgb { 178 28 28 }
 }
 ENG = {
 	color = rgb { 201 56 93 }
@@ -155,8 +163,8 @@ LAT = {
 	color_ui = rgb { 124 125 184 }
 }
 SPR = {
-	color = rgb { 242 205 94 }
-	color_ui = rgb { 255 255 122 }
+	color = rgb { 175 0 0 }
+	color_ui = rgb { 175 0 0 }
 }
 ITA = {
 	color = rgb { 67 127 63 }
@@ -777,8 +785,8 @@ D50 = {
 	color_ui = rgb { 255 138 61 }
 }
 BAY = {
-	color = rgb { 233  231  246 }
-	color_ui = rgb { 233  231  246 }
+	color = rgb { 0  148  255 }
+	color_ui = rgb { 0  148  255 }
 }
 MEK = {
 	color = rgb { 186 245 86 }
