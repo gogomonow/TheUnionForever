@@ -1,0 +1,16 @@
+state={
+	id=860
+	name="STATE_860"
+	provinces={
+		800 861 927 944 945 3888 3929 3949 6868 6905 9759 9803 9841 9848 9866 9883 11781 11823 11850 11862 
+	}
+	history={
+		owner = KOR
+		add_core_of = KOR
+		add_core_of = MAN
+		}
+	manpower=592000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

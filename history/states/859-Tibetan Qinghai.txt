@@ -1,0 +1,16 @@
+state={
+	id=859
+	name="STATE_859"
+	provinces={
+		4914 4964 8037 12899 
+	}
+		history={
+		owner = TIB
+		add_core_of = TIB
+		add_core_of = XSM
+		}
+	manpower=412000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

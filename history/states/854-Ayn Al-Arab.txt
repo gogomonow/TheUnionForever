@@ -1,0 +1,16 @@
+state={
+	id=854
+	name="STATE_854"
+	provinces={
+		901 1549 1578 1606 1634 6883 10882 
+	}
+	history={
+		owner = KUR
+		add_core_of = KUR
+		add_core_of = SYR
+		}
+	manpower=140560
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

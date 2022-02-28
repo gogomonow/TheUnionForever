@@ -1,0 +1,15 @@
+state={
+	id=857
+	name="STATE_857"
+	provinces={
+		7770 8136 10957 10978 12519 12921  
+	}
+		history={
+		owner = POR
+		add_core_of = NMB
+		}
+	manpower=185060
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}
