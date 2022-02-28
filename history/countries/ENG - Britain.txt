@@ -2,6 +2,8 @@
 
 puppet = BCL
 puppet = HBC
+puppet = EGY
+puppet = BOE
 
 if = {
 	limit = {
