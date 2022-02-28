@@ -1,5 +1,13 @@
 #reload countrycolors
 
+ICH = {
+	color = rgb { 0 15 102 }
+	color_ui = rgb { 0 15 102 }
+}
+BOE = {
+	color = rgb { 221 115 44 }
+	color_ui = rgb { 221 115 44 }
+}
 KUK = {
 	color = rgb { 0  53  150 }
 	color_ui = rgb { 0  53  150 }
