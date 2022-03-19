@@ -1,0 +1,16 @@
+state={
+	id=862
+	name="STATE_862"
+	provinces={
+		215 3203 3293 3507 6319 9249 
+	}
+	history={
+		owner = SOV
+		add_core_of = SOV
+		add_core_of = BLR
+		}
+	manpower=200202
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}
