@@ -1,5 +1,9 @@
 #reload countrycolors
 
+PAT = {
+	color = rgb { 239 118 38 }
+	color_ui = rgb { 239 118 38 }
+}
 ICH = {
 	color = rgb { 0 15 102 }
 	color_ui = rgb { 0 15 102 }
@@ -215,8 +219,8 @@ BUL = {
 	color_ui = rgb { 210 147 217 }
 }
 POR = {
-	color = rgb { 39 116 70 }
-	color_ui = rgb { 51 151 91 }
+	color = rgb { 81 163 163 }
+	color_ui = rgb { 81 163 163 }
 }
 FIN = {
 	color = rgb { 205 212 228 }
