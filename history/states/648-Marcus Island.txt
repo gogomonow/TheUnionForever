@@ -1,27 +1,25 @@
-
-state={
-	id=632
-	name="STATE_632"
-	manpower=150
+state=
+{
+	id=648
+	name="STATE_648"
 	state_category = tiny_island
-
-	history={
+	manpower=42
+	history=
+	{
 		owner = NEB
 		add_core_of = GUM
 		buildings = {
 			infrastructure = 2
-			13047 = {
+			air_base = 1
+			13026 = {
 				naval_base = 1
 			}
 		}
-		victory_points = {
-			13047 1 
-		}
 
 	}
-	provinces={
-		13047 
-	}
+	provinces=
+	{
+13026 	}
 
 	local_supplies=0.0 
 }

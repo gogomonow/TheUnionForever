@@ -7,7 +7,7 @@ state={
 	state_category = town
 
 	history={
-		owner = ORE
+		owner = NEB
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
@@ -16,6 +16,7 @@ state={
 				naval_base = 3
 			}
 		}
+		add_core_of = NEB
 		add_core_of = ORE
 		victory_points = {
 			3513 1 
