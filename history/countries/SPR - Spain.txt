@@ -1,6 +1,6 @@
 ﻿capital = 41
 
-puppet = PUE
+
 
 oob = "SPR_1936"
 if = {
