@@ -936,3 +936,7 @@ CHU = {
 	color = rgb { 191 128 64 }
 	color_ui = rgb { 134 89 45 }
 }
+PUE = {
+	color = rgb { 242 205 94 }
+	color_ui = rgb { 242 205 94 }
+}
