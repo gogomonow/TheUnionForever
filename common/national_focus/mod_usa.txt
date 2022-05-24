@@ -62,7 +62,7 @@ focus_tree = {
 	focus = {
 		id = USA_Lindbergs_return
 		icon = GFX_lindbergs_return
-		x = 2
+		x = 5
 		y = 1
 		relative_position_id = USA_1936
 		
@@ -122,9 +122,37 @@ focus_tree = {
 	}
 	
 	focus = {
+		id = USA_prepare_for_elections
+		icon = GFX_all_is_normal
+		x = 0
+		y = 1
+		relative_position_id = USA_all_is_normal
+		
+		prerequisite = { focus = USA_all_is_normal }
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
 		id = USA_general_strike
 		icon = GFX_general_strike
-		x = -2
+		x = -5
 		y = 1
 		relative_position_id = USA_1936
 		
@@ -177,6 +205,378 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			add_popularity = { ideology = fascism popularity = 0.05 }
+		}
+	}
+	
+	focus = {
+		id = USA_preparations
+		icon = GFX_lindbergs_speech
+		x = 0
+		y = 1
+		relative_position_id = USA_Lindbergs_speech
+		
+		prerequisite = { focus = USA_Lindbergs_speech }
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		}
+	
+	focus = {
+		id = USA_propoganda
+		icon = GFX_lindbergs_speech
+		x = -1
+		y = 1
+		relative_position_id = USA_preparations
+		
+		prerequisite = { focus = USA_preparations }
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		}
+		
+	focus = {
+		id = USA_threaten_opponents
+		icon = GFX_lindbergs_speech
+		x = 1
+		y = 1
+		relative_position_id = USA_preparations
+		
+		prerequisite = { focus = USA_preparations }
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		}
+		
+	focus = {
+		id = USA_tour
+		icon = GFX_lindbergs_speech
+		x = 0
+		y = 1
+		relative_position_id = USA_propoganda
+		
+		prerequisite = { focus = USA_propoganda }
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		}
+		
+	focus = {
+		id = USA_militia_violence
+		icon = GFX_lindbergs_speech
+		x = 0
+		y = 1
+		relative_position_id = USA_threaten_opponents
+		
+		prerequisite = { focus = USA_threaten_opponents }
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		}
+		
+	focus = {
+		id = USA_coup_government
+		icon = GFX_lindbergs_speech
+		x = -1
+		y = 1
+		relative_position_id = USA_militia_violence
+		
+		prerequisite = { focus = USA_militia_violence }
+		prerequisite = { focus = USA_tour }
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		}
+		
+	focus = {
+		id = USA_go_with_Cox
+		icon = GFX_lindbergs_speech
+		x = -1
+		y = 1
+		relative_position_id = USA_prepare_for_elections
+		
+		prerequisite = { focus = USA_prepare_for_elections }
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		}
+		
+	focus = {
+		id = USA_Dawes_is_best
+		icon = GFX_lindbergs_speech
+		x = 1
+		y = 1
+		relative_position_id = USA_prepare_for_elections
+		
+		prerequisite = { focus = USA_prepare_for_elections }
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		}
+		
+	focus = {
+		id = USA_coalminers
+		icon = GFX_lindbergs_speech
+		x = 2
+		y = 1
+		relative_position_id = USA_general_strike
+		
+		prerequisite = { focus = USA_general_strike }
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		}
+	
+	focus = {
+		id = USA_rust_belt
+		icon = GFX_lindbergs_speech
+		x = 0
+		y = 1
+		relative_position_id = USA_general_strike
+		
+		prerequisite = { focus = USA_general_strike }
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		}
+	
+	focus = {
+		id = USA_steel_workers
+		icon = GFX_lindbergs_speech
+		x = -2
+		y = 1
+		relative_position_id = USA_general_strike
+		
+		prerequisite = { focus = USA_general_strike }
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		}
+	
+	focus = {
+		id = USA_victory
+		icon = GFX_lindbergs_speech
+		x = 0
+		y = 1
+		relative_position_id = USA_rust_belt
+		
+		prerequisite = { focus = USA_rust_belt }
+		prerequisite = { focus = USA_steel_workers }
+		prerequisite = { focus = USA_coalminers	}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		}
+	
+	focus = {
+		id = USA_moderate
+		icon = GFX_lindbergs_speech
+		x = 1
+		y = 1
+		relative_position_id = USA_victory
+		
+		prerequisite = { focus = USA_victory }
+		cost = 10
+		
+		mutually_exclusive = { focus = USA_radical }
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		}
+	
+	focus = {
+		id = USA_radical
+		icon = GFX_lindbergs_speech
+		x = -1
+		y = 1
+		relative_position_id = USA_victory
+		
+		prerequisite = { focus = USA_victory }
+		cost = 10
+		
+		mutually_exclusive = { focus = USA_moderate }
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
 		}
 	}
 }
