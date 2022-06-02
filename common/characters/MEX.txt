@@ -1,4 +1,17 @@
 characters={
+	MEX_maria_josepha={
+		name= "Maria Josepha"
+		portraits={
+			civilian={
+				large="gfx/leaders/MEX/Portrait_MEX_maria_josepha.dds"
+			}
+		}
+		country_leader={
+			ideology=monarchism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
 	MEX_salvador_abascal={
 		name=MEX_salvador_abascal
 		portraits={
@@ -91,7 +104,7 @@ characters={
 	}
 
 	MEX_lazaro_cardenas={
-		name= "Maria Josepha"
+		name= "lazaro_cardenas"
 		portraits={
 			army={
 				large="gfx/leaders/MEX/Portrait_MEX_Lazaro_Cardenas.dds"
@@ -111,7 +124,7 @@ characters={
 			legacy_id=712
 		}
 		country_leader={
-			ideology=moderatism
+			ideology=socialism_ideology
 			expire="1965.1.1.1"
 			id=-1
 		}

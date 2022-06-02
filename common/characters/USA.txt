@@ -1,5 +1,5 @@
 characters={
-	USA_franklin_delano_roosevelt={
+	USA_james_m_cox={
 		name= "James M Cox"
 		portraits={
 			civilian={
@@ -7,14 +7,14 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=liberalism
+			ideology=liberalism_ideology
 			traits={ dislikes_germany }
 			expire="1947.1.1.1"
 			id=-1
 		}
 	}
 
-	USA_william_dudley_pelley={
+	USA_charles_lindbergh={
 		name= "Charles Lindbergh"
 		portraits={
 			civilian={
@@ -1121,46 +1121,6 @@ characters={
 		}
 	}
 	
-	USA_charles_lindbergh={
-		name=USA_charles_lindbergh
-		portraits={
-			army={
-				small="gfx/interface/ideas/idea_USA_charles_lindbergh.dds"
-			}
-		}
-		advisor={
-			slot = air_chief
-			idea_token = USA_charles_lindbergh
-			allowed = {
-				original_tag = USA
-			}
-			available = {
-				has_completed_focus = USA_send_lindbergh_to_germany
-			}
-			visible = {
-				has_dlc = "Man the Guns"
-			}
-			cost = 100.000
-			# TODO [AB] add support for equipment bonuses
-			#equipment_bonus = {
-			#	fighter_equipment = {
-			#		instant = yes
-			#		fuel_consumption = -0.100
-			#	}
-			#	heavy_fighter_equipment = {
-			#		instant = yes
-			#		fuel_consumption = -0.100
-			#	}
-			#}
-			traits = {
-				air_pilot_training_3
-			}
-			cost = 200
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
-	}
 
 
 	### MILITARY HIGH COMMAND ###
