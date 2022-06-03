@@ -1,5 +1,7 @@
 ﻿capital = 112
 
+puppet = ISC
+
 oob = "POR_1936"
 if = {
 	limit = { has_dlc = "Man the Guns" }

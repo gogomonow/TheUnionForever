@@ -2,6 +2,10 @@ PAT = {
 	color = rgb { 239 118 38 }
 	color_ui = rgb { 239 118 38 }
 }
+ISC = {
+	color = rgb { 255 255 224 }
+	color_ui = rgb { 255 255 224 }
+}
 ICH = {
 	color = rgb { 0 15 102 }
 	color_ui = rgb { 0 15 102 }

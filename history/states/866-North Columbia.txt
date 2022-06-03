@@ -1,0 +1,19 @@
+state={
+	id=866
+	name="STATE_866"
+	provinces={
+		917 1411 1799 1872 4678 5403 10548 12508 12571 
+	}
+	history={
+		owner = HBC
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = HBC
+
+	}
+	manpower=7500
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=pastoral
+}

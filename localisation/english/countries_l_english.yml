@@ -1,4 +1,11 @@
 ﻿l_english:
+ ISC:0 "Canarias"
+ ISC_DEF:0 "the Canary Islands"
+ ISC_ADJ:0 "Canarian"
+ ISC_despotism:0 "Military Government of the Canary Islands"
+ ISC_despotism_DEF:0 "the Military Government of the Canary Islands"
+ ISC_despotism_ADJ:0 "Canarian"
+ 
  PAT_fascism:0 "Empire of Patagonia"
  PAT_fascism_DEF:0 "The Empire of Patagonia"
  PAT_democratic:0 "Republic of Patagonia"
