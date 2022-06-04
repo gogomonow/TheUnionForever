@@ -1,0 +1,229 @@
+spriteTypes = {
+
+	# leaders we need to override in DLC go in this file
+
+	spriteType = {
+		name = "GFX_portrait_operative_unknown"
+		texturefile = "gfx/leaders/operative_unknown.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_unknown"
+		texturefile = "gfx/leaders/leader_unknown.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_unknown_female"
+		texturefile = "gfx/leaders/leader_unknown_female.dds"
+	}
+
+
+	### USA
+	
+	spriteType = {
+		name = "GFX_Portrait_James_Cox"
+		texturefile = "gfx/leaders/USA/Portrait_James_Cox.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Charles_Lindbergh"
+		texturefile = "gfx/leaders/USA/Portrait_Charles_Lindbergh.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Franklin_Roosevelt"
+		texturefile = "gfx/leaders/USA/Portrait_Franklin_Roosevelt.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Upton_Sinclair"
+		texturefile = "gfx/leaders/USA/Portrait_Upton_Sinclair.dds"
+	}
+	
+	### CAL
+	
+	spriteType = {
+		name = "GFX_charlie_chaplin"
+		texturefile = "gfx/leaders/CAL/charlie_chaplin.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Frank_Merriam"
+		texturefile = "gfx/leaders/CAL/Frank_Merriam.dds"
+	}
+	
+	### CSA
+	
+	spriteType = {
+		name = "GFX_charlie_chaplin"
+		texturefile = "gfx/leaders/CSA/Hiram_Evans.dds"
+	}
+	
+	### DAK
+	
+	spriteType = {
+		name = "GFX_Walter_Welford"
+		texturefile = "gfx/leaders/DAK/Walter_Welford.dds"
+	}
+	
+	### IDA
+	
+	spriteType = {
+		name = "GFX_Ben_Ross"
+		texturefile = "gfx/leaders/IDA/Ben_Ross.dds"
+	}
+	
+	### INT
+	
+	spriteType = {
+		name = "GFX_James_Allred"
+		texturefile = "gfx/leaders/INT/James_Allred.dds"
+	}
+	
+	### IOW
+	
+	spriteType = {
+		name = "GFX_Clyde_Herring"
+		texturefile = "gfx/leaders/ION/Clyde_Herring.dds"
+	}
+	
+	### KAN
+	
+	spriteType = {
+		name = "GFX_Alf_Landon"
+		texturefile = "gfx/leaders/KAN/Alf_Landon.dds"
+	}
+	
+	### KET
+	
+	spriteType = {
+		name = "GFX_Happy_Chandler"
+		texturefile = "gfx/leaders/KET/Happy_Chandler.dds"
+	}
+	
+	### LOU
+	
+	spriteType = {
+		name = "GFX_Huey_Long"
+		texturefile = "gfx/leaders/LOU/Huey_Long.dds"
+	}
+	
+	### MEX
+
+	spriteType = {
+		name = "GFX_Portrait_maria_josepha"
+		texturefile = "gfx/leaders/MEX/Portrait_maria_josepha.dds"
+	}
+	
+	### MOA
+	
+	spriteType = {
+		name = "GFX_Douglas_MacArthur"
+		texturefile = "gfx/leaders/MOA/Douglas_MacArthur.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Guy_Park"
+		texturefile = "gfx/leaders/MOA/Guy_Park.dds"
+	}
+	
+	### MTN
+	
+	spriteType = {
+		name = "GFX_Elmer_Holt"
+		texturefile = "gfx/leaders/MTN/Elmer_Holt.dds"
+	}
+	
+	### NEB
+	
+	spriteType = {
+		name = "GFX_john_pershing"
+		texturefile = "gfx/leaders/NEB/john_pershing.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Robert_Cochran"
+		texturefile = "gfx/leaders/NEB/Robert_Cochran.dds"
+	}
+	
+	### NEG
+	
+	spriteType = {
+		name = "GFX_James_Michael_Curley"
+		texturefile = "gfx/leaders/NEG/James_Michael_Curley.dds"
+	}
+	
+	### NSC
+	
+	spriteType = {
+		name = "GFX_Oliver_Gardner"
+		texturefile = "gfx/leaders/NSC/Oliver_Gardner.dds"
+	}
+	
+	### NYC
+	
+	spriteType = {
+		name = "GFX_Herbert_Lehman"
+		texturefile = "gfx/leaders/NYC/Herbert_Lehman.dds"
+	}
+	
+	### ORE
+	
+	spriteType = {
+		name = "GFX_Charles_Martin"
+		texturefile = "gfx/leaders/ORE/Charles_Martin.dds"
+	}
+	
+	### ROT
+	
+	spriteType = {
+		name = "GFX_WEB_du_bois"
+		texturefile = "gfx/leaders/ROT/WEB_du_bois.dds"
+	}
+	
+	### RUS
+	
+	spriteType = {
+		name = "GFX_Nicholas_II"
+		texturefile = "gfx/leaders/RUS/Nicholas_II.dds"
+		
+	}
+	
+	### TEN
+	
+	spriteType = {
+		name = "GFX_Hill_McAlister"
+		texturefile = "gfx/leaders/TEN/Hill_McAlister.dds"
+		
+	}
+	
+	### TEX
+	
+	spriteType = {
+		name = "GFX_James_Allred"
+		texturefile = "gfx/leaders/TEX/James_Allred.dds"
+		
+	}
+	
+	spriteType = {
+		name = "GFX_John_Nance_Garner"
+		texturefile = "gfx/leaders/TEX/John_Nance_Garner.dds"
+		
+	}
+	
+	### UTH
+	
+	spriteType = {
+		name = "GFX_Henry_Blood"
+		texturefile = "gfx/leaders/UTH/Henry_Blood.dds"
+		
+	}
+	
+	### VIR
+	
+	spriteType = {
+		name = "GFX_George_Peery"
+		texturefile = "gfx/leaders/VIR/George_Peery.dds"
+		
+	}
+}

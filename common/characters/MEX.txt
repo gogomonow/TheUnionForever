@@ -3,7 +3,7 @@ characters={
 		name= "Maria Josepha"
 		portraits={
 			civilian={
-				large="gfx/leaders/MEX/Portrait_MEX_maria_josepha.dds"
+				large=GFX_Portrait_maria_josepha
 			}
 		}
 		country_leader={

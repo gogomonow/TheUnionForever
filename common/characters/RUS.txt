@@ -1,0 +1,17 @@
+characters={
+	RUS_nicholas_II={
+		name="Nicholas II"
+		portraits={
+			civilian={
+				large=GFX_Nicholas_II
+			}
+		}
+		country_leader = {
+			expire = "1954.8.24"
+			ideology = monarchism_ideology
+			id=-1
+			traits = {
+			}
+		}
+	}
+}

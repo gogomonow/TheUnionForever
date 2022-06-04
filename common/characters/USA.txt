@@ -3,7 +3,7 @@ characters={
 		name= "James M Cox"
 		portraits={
 			civilian={
-				large="gfx/leaders/USA/James_Cox.dds"
+				large=GFX_Portrait_James_Cox
 			}
 		}
 		country_leader={
@@ -18,7 +18,7 @@ characters={
 		name= "Charles Lindbergh"
 		portraits={
 			civilian={
-				large="gfx/leaders/USA/Charles_Lindbergh.dds"
+				large=GFX_Portrait_Charles_Lindbergh
 			}
 		}
 		country_leader={
@@ -47,7 +47,7 @@ characters={
 		name= "Upton Sinclair"
 		portraits={
 			civilian={
-				large="gfx/leaders/USA/Upton_Sinclair.dds"
+				large=GFX_Portrait_Upton_Sinclair
 			}
 		}
 		country_leader={
