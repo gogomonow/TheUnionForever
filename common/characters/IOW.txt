@@ -1,0 +1,18 @@
+characters={
+	IOW_Clyde_Herring={
+		name = "Clyde L. Herring"
+		portraits={
+			civilian={
+				large=GFX_Clyde_Herring
+			}
+		}
+		country_leader={
+			ideology=liberalism_ideology
+			traits={ }
+			desc = "The president of Iowa"
+			expire="1953.1.1.1"
+			id=-1
+		}
+	}
+
+}

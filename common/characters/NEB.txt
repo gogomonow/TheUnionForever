@@ -1,0 +1,18 @@
+characters={
+	NEB_John_Pershing={
+		name= "John Pershing"
+		portraits={
+			civilian={
+				large=GFX_john_pershing
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			traits={ }
+			desc = "President and Commander in Chief of The Provisional republic of America."
+			expire="1953.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,30 @@
+characters={
+	CAL_Frank_Merriam={
+		name= "Frank Merriam"
+		portraits={
+			civilian={
+				large=GFX_Frank_Merriam
+			}
+		}
+		country_leader={
+			ideology=conservatism_ideology
+			traits={ }
+			expire="1947.1.1.1"
+			id=-1
+		}
+	}
+
+	CAL_Charlie_Chaplin={
+		name= "Charlie Chaplin"
+		portraits={
+			civilian={
+				large=GFX_charlie_chaplin
+			}
+		}
+		country_leader={
+			ideology=communism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

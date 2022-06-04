@@ -31,11 +31,6 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_Portrait_Franklin_Roosevelt"
-		texturefile = "gfx/leaders/USA/Portrait_Franklin_Roosevelt.dds"
-	}
-	
-	spriteType = {
 		name = "GFX_Portrait_Upton_Sinclair"
 		texturefile = "gfx/leaders/USA/Portrait_Upton_Sinclair.dds"
 	}
@@ -52,10 +47,10 @@ spriteTypes = {
 		texturefile = "gfx/leaders/CAL/Frank_Merriam.dds"
 	}
 	
-	### CSA
+	### CON
 	
 	spriteType = {
-		name = "GFX_charlie_chaplin"
+		name = "GFX_Hiram_Evans"
 		texturefile = "gfx/leaders/CSA/Hiram_Evans.dds"
 	}
 	
@@ -165,6 +160,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Herbert_Lehman"
 		texturefile = "gfx/leaders/NYC/Herbert_Lehman.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Franklin_Roosevelt"
+		texturefile = "gfx/leaders/NYC/Portrait_Franklin_Roosevelt.dds"
 	}
 	
 	### ORE

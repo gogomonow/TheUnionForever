@@ -1,0 +1,18 @@
+characters={
+	ORE_Charles_Martin={
+		name = "Charles Martin"
+		portraits={
+			civilian={
+				large=GFX_Charles_Martin
+			}
+		}
+		country_leader={
+			ideology=conservatism_ideology
+			traits={ }
+			desc = "The Governer of The Oregon Republic"
+			expire="1953.1.1.1"
+			id=-1
+		}
+	}
+
+}

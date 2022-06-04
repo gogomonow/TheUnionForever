@@ -1,0 +1,18 @@
+characters={
+	CON_Hiram_Evans={
+		name= "Hiram Wesley Evans"
+		portraits={
+			civilian={
+				large=GFX_Hiram_Evans
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			traits={ }
+			desc = "Imperial Wizard of the CSA and the KKK."
+			expire="1953.1.1.1"
+			id=-1
+		}
+	}
+
+}

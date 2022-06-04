@@ -1,0 +1,18 @@
+characters={
+	MTN_Elmer_Holt={
+		name= "Elmer Holt"
+		portraits={
+			civilian={
+				large=GFX_Elmer_Holt
+			}
+		}
+		country_leader={
+			ideology=despotism_ideology
+			traits={ }
+			desc = "The King of Montana"
+			expire="1953.1.1.1"
+			id=-1
+		}
+	}
+
+}

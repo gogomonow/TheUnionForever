@@ -1,0 +1,48 @@
+characters={
+	MOA_Guy_Park={
+		name= "Guy Brasfield Park"
+		portraits={
+			civilian={
+				large=GFX_Guy_Park
+			}
+		}
+		country_leader={
+			ideology=liberalism_ideology
+			traits={ }
+			desc = "The Dual President of the Republic of Missouri-Arkansas"
+			expire="1953.1.1.1"
+			id=-1
+		}
+	}
+	MOA_douglas_macarthur={
+		name=USA_douglas_macarthur
+		portraits={
+			civilian={
+				large=GFX_Douglas_MacArthur
+			}
+			army={
+				small="GFX_idea_douglas_macarthur"
+			}
+			army={
+				large="gfx/leaders/USA/Portrait_USA_Douglas_MacArthur.dds"
+			}
+		}
+		country_leader={
+			ideology=despotism_ideology
+			traits={ }
+			desc = "When Arkansas threatened to seceed from the Union of Missouri-Arkansas Douglas MacArthur stepped up and took the reins of our great nation, crushing any disent."
+			expire="1953.1.1.1"
+			id=-1
+		}
+		field_marshal={
+			traits={ brilliant_strategist career_officer media_personality politically_connected offensive_doctrine }
+			skill=4
+			attack_skill=4
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=57
+		}
+	}
+
+}

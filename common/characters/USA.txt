@@ -239,49 +239,7 @@ characters={
 		}
 	}
 
-	USA_douglas_macarthur={
-		name=USA_douglas_macarthur
-		portraits={
-			army={
-				small="GFX_idea_douglas_macarthur"
-			}
-			army={
-				large="gfx/leaders/USA/Portrait_USA_Douglas_MacArthur.dds"
-			}
-		}
-		advisor={
-			slot = army_chief
-			idea_token = douglas_macarthur
-			allowed = {
-				original_tag = USA
-			}
-			available = {
-				NOT = {
-					has_country_leader = {
-						ruling_only = yes
-						character = USA_douglas_macarthur
-					}
-				}
-			}
-			traits = {
-				army_chief_morale_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
-		
-		field_marshal={
-			traits={ brilliant_strategist career_officer media_personality politically_connected offensive_doctrine }
-			skill=4
-			attack_skill=4
-			defense_skill=3
-			planning_skill=4
-			logistics_skill=2
-			legacy_id=57
-		}
-	}
+	
 
 	USA_walter_krueger={
 		name=USA_walter_krueger

@@ -1,0 +1,18 @@
+characters={
+	ROT_web_du_bois={
+		name = "W.E.B Du Bois"
+		portraits={
+			civilian={
+				large=GFX_WEB_du_bois
+			}
+		}
+		country_leader={
+			ideology=socialism_ideology
+			traits={ }
+			desc = "The President of The Republic of Turner"
+			expire="1953.1.1.1"
+			id=-1
+		}
+	}
+
+}

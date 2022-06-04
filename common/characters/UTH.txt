@@ -1,0 +1,18 @@
+characters={
+	UTH_henry_blood={
+		name = "Henry Blood"
+		portraits={
+			civilian={
+				large=GFX_Henry_Blood
+			}
+		}
+		country_leader={
+			ideology=despotism_ideology
+			traits={ }
+			desc = "The President of the Theodemocracy of Utah"
+			expire="1953.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,18 @@
+characters={
+	NSC_Oliver_Gardner={
+		name = "Oliver Gardner"
+		portraits={
+			civilian={
+				large=GFX_Oliver_Gardner
+			}
+		}
+		country_leader={
+			ideology=despotism_ideology
+			traits={ }
+			desc = "The President of North Carolina and South Carolina"
+			expire="1953.1.1.1"
+			id=-1
+		}
+	}
+
+}

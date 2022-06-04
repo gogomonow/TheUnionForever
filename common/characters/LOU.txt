@@ -1,0 +1,39 @@
+characters={
+	LOU_Huey_Long={
+		name = "Huey Long"
+		portraits={
+			civilian={
+				large=GFX_Huey_Long
+			}
+		}
+		country_leader={
+			ideology=despotism_ideology
+			traits={ }
+			desc = "The Kingfish"
+			expire="1953.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=liberalism_ideology
+			traits={ }
+			desc = "The Kingfish"
+			expire="1953.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=fascism_ideology
+			traits={ }
+			desc = "The Kingfish"
+			expire="1953.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=communism_ideology
+			traits={ }
+			desc = "The Kingfish"
+			expire="1953.1.1.1"
+			id=-1
+		}
+	}
+
+}

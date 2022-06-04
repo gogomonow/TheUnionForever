@@ -1,0 +1,18 @@
+characters={
+	VIR_george_peery={
+		name = "George C. Peery"
+		portraits={
+			civilian={
+				large=GFX_George_Peery
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			traits={ }
+			desc = "The Governer of Virginia"
+			expire="1953.1.1.1"
+			id=-1
+		}
+	}
+
+}

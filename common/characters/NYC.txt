@@ -1,0 +1,18 @@
+characters={
+	NYC_Franklin_Roosevelt={
+		name = "Franklin D Roosevelt"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Franklin_Roosevelt
+			}
+		}
+		country_leader={
+			ideology=liberalism_ideology
+			traits={ }
+			desc = "The President of New York"
+			expire="1944.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,18 @@
+characters={
+	IDA_Ben_Ross={
+		name= "C. Ben Ross"
+		portraits={
+			civilian={
+				large=GFX_Ben_Ross
+			}
+		}
+		country_leader={
+			ideology=despotism_ideology
+			traits={ }
+			desc = "President of Idaho"
+			expire="1953.1.1.1"
+			id=-1
+		}
+	}
+
+}

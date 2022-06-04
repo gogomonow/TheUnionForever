@@ -1,0 +1,18 @@
+characters={
+	KAN_Alf_Landon={
+		name = "Alf Landon"
+		portraits={
+			civilian={
+				large=GFX_Alf_Landon
+			}
+		}
+		country_leader={
+			ideology=conservatism_ideology
+			traits={ }
+			desc = "The President of the Representative Republic of Kansas"
+			expire="1953.1.1.1"
+			id=-1
+		}
+	}
+
+}

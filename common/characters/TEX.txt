@@ -1,0 +1,18 @@
+characters={
+	TEX_john_garner={
+		name = "John Nance Garner"
+		portraits={
+			civilian={
+				large=GFX_John_Nance_Garner
+			}
+		}
+		country_leader={
+			ideology=liberalism_ideology
+			traits={ }
+			desc = "The President of the Second Republic of Texas"
+			expire="1953.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,18 @@
+characters={
+	INT_James_Allred={
+		name = "James Allred"
+		portraits={
+			civilian={
+				large=GFX_James_Allred
+			}
+		}
+		country_leader={
+			ideology=liberalism_ideology
+			traits={ }
+			desc = "The protector of the Indians from Texas"
+			expire="1953.1.1.1"
+			id=-1
+		}
+	}
+
+}

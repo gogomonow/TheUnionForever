@@ -1,0 +1,18 @@
+characters={
+	DAK_Walter_Welford={
+		name= "Walter Welford"
+		portraits={
+			civilian={
+				large=GFX_Walter_Welford
+			}
+		}
+		country_leader={
+			ideology=despotism_ideology
+			traits={ }
+			desc = "The President of North and South Dakota"
+			expire="1953.1.1.1"
+			id=-1
+		}
+	}
+
+}
