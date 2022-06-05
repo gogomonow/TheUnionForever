@@ -1,0 +1,116 @@
+### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+### search_filters = {FOCUS_FILTER_USA_CONGRESS}
+
+focus_tree = {
+	id = portugal_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = POR
+		}
+		
+		modifier = {
+			add = 10
+			original_tag = POR
+		}
+	}
+	
+	continuous_focus_position = { x = 50 y = 1600 }
+	
+	default = no
+	
+	focus = {
+		id = POR_the_galician_question
+		icon = GFX_
+		x = 5
+		y = 0
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			country_event = {
+			id = portugal.1
+			}
+		}
+	}
+	
+	focus = {
+		id = POR_passado_glorioso
+		icon = GFX_
+		x = -1
+		y = 1
+		relative_position_id = POR_the_galician_question
+		
+		prerequisite = { focus = POR_the_galician_question }
+		cost = 10
+		
+		mutually_exclusive = { focus = POR_futuro_glorioso }
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = POR_futuro_glorioso
+		icon = GFX_
+		x = 1
+		y = 1
+		relative_position_id = POR_the_galician_question
+		
+		prerequisite = { focus = POR_the_galician_question }
+		cost = 10
+		
+		mutually_exclusive = { focus = USA_passado_glorioso }
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		}
+	}
+	
+}

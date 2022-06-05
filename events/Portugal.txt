@@ -1,0 +1,29 @@
+﻿###########################
+# Portugal Events
+###########################
+
+### Choose between the two galician options
+country_event = {
+	id = portugal.1
+	title = portugal.1.t
+	desc = portugal.1.desc
+	picture = GFX_report_event_manchukuo_army_2
+
+	is_triggered_only = yes
+	
+	option = {
+		name = portugal.1.a
+		complete_national_focus = POR_futuro_glorioso
+		ai_chance = { 
+			base = 10 
+		}
+	}
+	option = {
+		name = portugal.1.b
+		complete_national_focus = POR_passado_glorioso
+		ai_chance = { 
+			base = 10 
+		}
+	}
+	
+}
