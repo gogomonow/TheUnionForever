@@ -9,7 +9,7 @@ characters={
 		country_leader={
 			ideology=conservatism_ideology
 			traits={ }
-			desc = "The President of the Representative Republic of Kansas"
+			desc = POLITICS_ALF_LANDON_DESC
 			expire="1953.1.1.1"
 			id=-1
 		}

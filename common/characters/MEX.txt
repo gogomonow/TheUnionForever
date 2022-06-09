@@ -8,6 +8,7 @@ characters={
 		}
 		country_leader={
 			ideology=monarchism_ideology
+			desc = POLITICS_MARIA_JOSEPHA_DESC
 			expire="1965.1.1.1"
 			id=-1
 		}

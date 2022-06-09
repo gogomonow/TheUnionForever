@@ -9,7 +9,7 @@ characters={
 		country_leader={
 			ideology=liberalism_ideology
 			traits={ }
-			desc = "The president of Iowa"
+			desc = POLITICS_CLYDE_HERRING_DESC
 			expire="1953.1.1.1"
 			id=-1
 		}

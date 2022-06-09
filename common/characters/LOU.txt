@@ -9,28 +9,28 @@ characters={
 		country_leader={
 			ideology=despotism_ideology
 			traits={ }
-			desc = "The Kingfish"
+			desc = POLITICS_HUEY_LONG_DESC
 			expire="1953.1.1.1"
 			id=-1
 		}
 		country_leader={
 			ideology=liberalism_ideology
 			traits={ }
-			desc = "The Kingfish"
+			desc = POLITICS_HUEY_LONG_DESC
 			expire="1953.1.1.1"
 			id=-1
 		}
 		country_leader={
 			ideology=fascism_ideology
 			traits={ }
-			desc = "The Kingfish"
+			desc = POLITICS_HUEY_LONG_DESC
 			expire="1953.1.1.1"
 			id=-1
 		}
 		country_leader={
 			ideology=communism_ideology
 			traits={ }
-			desc = "The Kingfish"
+			desc = POLITICS_HUEY_LONG_DESC
 			expire="1953.1.1.1"
 			id=-1
 		}

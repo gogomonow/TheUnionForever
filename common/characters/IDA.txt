@@ -9,7 +9,7 @@ characters={
 		country_leader={
 			ideology=despotism_ideology
 			traits={ }
-			desc = "President of Idaho"
+			desc = POLITICS_BEN_ROSS_DESC
 			expire="1953.1.1.1"
 			id=-1
 		}

@@ -1,4 +1,36 @@
 characters = {
+	POR_jose_norton_de_matos = {
+			advisor = {
+				cost = 100
+				slot = theorist
+				idea_token = POR_jose_norton_de_matos
+				allowed = {
+					original_tag = POR
+					NOT = {
+						has_dlc = "La Resistance"
+					}
+				}
+				ledger = army
+				traits = {
+					military_theorist
+				}
+			}
+			name = POR_jose_norton_de_matos
+			portraits = {
+				civilian = {
+					large = GFX_portrait_POR_jose_norton_de_matos
+				}
+				army = {
+					small = "GFX_idea_generic_army_europe_1"
+				}
+			}
+			country_leader = {
+				ideology=conservatism_ideology
+				desc = POLITICS_JOSE_NORTON_DESC
+				expire = "1965.1.1.1"
+				id = -1
+			}
+		}
 
 	POR_antonio_de_oliveira_salazar = {
 		name = POR_antonio_de_oliveira_salazar
@@ -10,6 +42,7 @@ characters = {
 		country_leader = {
 			ideology=despotism
 			traits = { conservative_nationalist_lar }
+			
 			expire = "1965.1.1.1"
 			id = -1
 		}
@@ -25,6 +58,7 @@ characters = {
 		country_leader = {
 			ideology=marxism
 			traits = { veteran_communist }
+			
 			expire = "1965.1.1.1"
 			id = -1
 		}
@@ -434,37 +468,6 @@ characters = {
 		}
 	}
 
-	POR_jose_norton_de_matos = {
-			advisor = {
-				cost = 100
-				slot = theorist
-				idea_token = POR_jose_norton_de_matos
-				allowed = {
-					original_tag = POR
-					NOT = {
-						has_dlc = "La Resistance"
-					}
-				}
-				ledger = army
-				traits = {
-					military_theorist
-				}
-			}
-			name = POR_jose_norton_de_matos
-			portraits = {
-				civilian = {
-					large = GFX_portrait_POR_jose_norton_de_matos
-				}
-				army = {
-					small = "GFX_idea_generic_army_europe_1"
-				}
-			}
-			country_leader = {
-				ideology=conservatism_ideology
-				expire = "1965.1.1.1"
-				id = -1
-			}
-		}
 	POR_manuel_quintao_meireles = {
 		advisor = {
 			slot = high_command

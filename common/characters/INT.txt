@@ -9,7 +9,7 @@ characters={
 		country_leader={
 			ideology=liberalism_ideology
 			traits={ }
-			desc = "The protector of the Indians from Texas"
+			desc = POLITICS_JAMES_ALLRED_DESC
 			expire="1953.1.1.1"
 			id=-1
 		}

@@ -9,7 +9,7 @@ characters={
 		country_leader={
 			ideology=conservatism_ideology
 			traits={ }
-			desc = "The Governer of The Oregon Republic"
+			desc = POLITICS_CHARLES_MARTIN_DESC
 			expire="1953.1.1.1"
 			id=-1
 		}

@@ -9,7 +9,7 @@ characters={
 		country_leader={
 			ideology=liberalism_ideology
 			traits={ }
-			desc = "The Dual President of the Republic of Missouri-Arkansas"
+			desc = POLITICS_GUY_PARK_DESC
 			expire="1953.1.1.1"
 			id=-1
 		}
@@ -30,7 +30,7 @@ characters={
 		country_leader={
 			ideology=despotism_ideology
 			traits={ }
-			desc = "When Arkansas threatened to seceed from the Union of Missouri-Arkansas Douglas MacArthur stepped up and took the reins of our great nation, crushing any disent."
+			desc = POLITICS_DOUGLAS_MCARTHUR_DESC
 			expire="1953.1.1.1"
 			id=-1
 		}

@@ -9,6 +9,7 @@ characters={
 		country_leader={
 			ideology=liberalism_ideology
 			traits={ dislikes_germany }
+			desc = POLITICS_JAMES_COX_DESC
 			expire="1947.1.1.1"
 			id=-1
 		}

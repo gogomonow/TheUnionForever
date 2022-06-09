@@ -9,7 +9,7 @@ characters={
 		country_leader={
 			ideology=despotism_ideology
 			traits={ }
-			desc = "The President of the Theodemocracy of Utah"
+			desc = POLITICS_HENRY_BLOOD_DESC
 			expire="1953.1.1.1"
 			id=-1
 		}

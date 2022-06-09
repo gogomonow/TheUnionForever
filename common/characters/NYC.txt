@@ -9,7 +9,7 @@ characters={
 		country_leader={
 			ideology=liberalism_ideology
 			traits={ }
-			desc = "The President of New York"
+			desc = POLITICS_FRANKLIN_ROOSEVELT_DESC
 			expire="1944.1.1.1"
 			id=-1
 		}

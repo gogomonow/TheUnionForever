@@ -9,7 +9,7 @@ characters={
 		country_leader={
 			ideology=despotism_ideology
 			traits={ }
-			desc = "The President of North and South Dakota"
+			desc = POLITICS_WALTER_WELFORD_DESC
 			expire="1953.1.1.1"
 			id=-1
 		}

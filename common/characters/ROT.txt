@@ -9,7 +9,7 @@ characters={
 		country_leader={
 			ideology=socialism_ideology
 			traits={ }
-			desc = "The President of The Republic of Turner"
+			desc = POLITICS_WEB_DUBOIS_DESC
 			expire="1953.1.1.1"
 			id=-1
 		}

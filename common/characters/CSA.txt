@@ -9,7 +9,7 @@ characters={
 		country_leader={
 			ideology=fascism_ideology
 			traits={ }
-			desc = "Imperial Wizard of the CSA and the KKK."
+			desc = POLITICS_HIRAM_EVANS_DESC
 			expire="1953.1.1.1"
 			id=-1
 		}

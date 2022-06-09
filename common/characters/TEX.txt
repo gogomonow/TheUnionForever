@@ -9,7 +9,7 @@ characters={
 		country_leader={
 			ideology=liberalism_ideology
 			traits={ }
-			desc = "The President of the Second Republic of Texas"
+			desc = POLITICS_JOHN_GARNER_DESC
 			expire="1953.1.1.1"
 			id=-1
 		}
