@@ -1,5 +1,5 @@
 characters={
-	CON_Hiram_Evans={
+	CSA_Hiram_Evans={
 		name= "Hiram Wesley Evans"
 		portraits={
 			civilian={
