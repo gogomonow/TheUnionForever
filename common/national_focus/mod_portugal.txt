@@ -5,7 +5,6 @@
 ### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
 ### search_filters = {FOCUS_FILTER_MANPOWER}
 ### search_filters = {FOCUS_FILTER_ANNEXATION}
-### search_filters = {FOCUS_FILTER_USA_CONGRESS}
 
 focus_tree = {
 	id = portugal_focus
@@ -29,9 +28,537 @@ focus_tree = {
 	default = no
 	
 	focus = {
+		id = POR_the_foundations_of_a_modern_army
+		icon = GFX_focus_generic_little_entente
+		x = 13
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		army_experience	= 20
+		add_tech_bonus = {
+				name = POR_metropolitan_army
+			    bonus = 1.0
+			    uses = 2
+			    category = infantry_weapons
+				category = support_tech
+				category = artillery
+			}
+		}
+	}
+	
+	focus = {
+		id = POR_the_defense_of_portugal
+		icon = GFX_goal_generic_defence	
+		x = -2
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = POR_the_foundations_of_a_modern_army
+		
+		prerequisite = { focus = POR_the_foundations_of_a_modern_army }
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = POR_fortify_lisbon
+		icon = GFX_goal_generic_fortify_city
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = POR_the_defense_of_portugal
+		
+		prerequisite = { focus = POR_the_defense_of_portugal }
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = POR_global_reach
+		icon = GFX_
+		x = 2
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = POR_the_foundations_of_a_modern_army
+		
+		prerequisite = { focus = POR_the_foundations_of_a_modern_army }
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = POR_colonial_battalions
+		icon = GFX_goal_army_guy_2
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = POR_global_reach
+		
+		prerequisite = { focus = POR_global_reach }
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = POR_tank_warfare
+		icon = GFX_goal_generic_army_tanks
+		x = 0
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = POR_the_foundations_of_a_modern_army
+		
+		prerequisite = { focus = POR_the_foundations_of_a_modern_army }
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = POR_air_warfare
+		icon = GFX_goal_generic_air_fighter2
+		x = 26
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		army_experience	= 20
+		add_tech_bonus = {
+			}
+		}
+	}
+	
+	focus = {
+		id = POR_fighter_focus
+		icon = GFX_goal_generic_air_fighter
+		x = -1
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = POR_air_warfare
+		
+		mutually_exclusive = { focus = POR_bomber_focus }
+		
+		prerequisite = { focus = POR_air_warfare }
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = POR_bomber_focus
+		icon = GFX_goal_generic_air_bomber
+		x = 1
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = POR_air_warfare
+		
+		mutually_exclusive = { focus = POR_fighter_focus }
+		
+		prerequisite = { focus = POR_air_warfare }
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = POR_air_defense
+		icon = GFX_focus_generic_air_defense
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = POR_bomber_focus
+		
+		prerequisite = { focus = POR_bomber_focus focus = POR_fighter_focus }
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = POR_OGMA
+		icon = GFX_goal_generic_air_production
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = POR_fighter_focus
+		
+		prerequisite = { focus = POR_bomPber_focus focus = POR_fighter_focus }
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = POR_corpo_do_estado_maior
+		icon = GFX_goal_generic_army_doctrines
+		x = 7
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = POR_tank_warfare
+		
+		prerequisite = { focus = POR_tank_warfare focus = POR_OGMA focus = POR_air_defense focus = POR_expand_the_dockyards }
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = POR_the_royal_portuguese_fleet
+		icon = GFX_focus_generic_navy_battleship2
+		x = 20
+		y = 0
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = POR_expand_the_dockyards
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = 0
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = POR_the_royal_portuguese_fleet
+		
+		prerequisite = { focus = POR_the_royal_portuguese_fleet }
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = POR_atlatic_strategy
+		icon = GFX_
+		x = 2
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = POR_the_royal_portuguese_fleet
+		
+		prerequisite = { focus = POR_the_royal_portuguese_fleet }
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = POR_unsinkable_aircraft_carriers
+		icon = GFX_
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = POR_atlatic_strategy
+		
+		prerequisite = { focus = POR_atlatic_strategy }
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = POR_submarine_bases
+		icon = GFX_goal_generic_navy_anti_submarine
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = POR_unsinkable_aircraft_carriers
+		
+		prerequisite = { focus = POR_unsinkable_aircraft_carriers }
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = POR_indian_strategy
+		icon = GFX_
+		x = -2
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = POR_the_royal_portuguese_fleet
+		
+		prerequisite = { focus = POR_the_royal_portuguese_fleet }
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+ 
+	focus = {
+		id = POR_national_battleships
+		icon = GFX_focus_generic_cruiser2
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = POR_indian_strategy
+		
+		prerequisite = { focus = POR_indian_strategy }
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = POR_carriers_and_naval_bombers
+		icon = GFX_goal_generic_navy_carrier
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		relative_position_id = POR_national_battleships
+		
+		prerequisite = { focus = POR_national_battleships }
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
 		id = POR_the_galician_question
 		icon = GFX_
-		x = 5
+		x = 6
 		y = 0
 		cost = 5
 		ai_will_do = {
@@ -85,16 +612,14 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = POR_futuro_glorioso
-		icon = GFX_
-		x = 1
+		id = POR_galicia_is_portugal_portugal_is_galicia
+		icon = GFX_focus_generic_support_the_left_right
+		x = 0
 		y = 1
-		relative_position_id = POR_the_galician_question
+		relative_position_id = POR_passado_glorioso
 		
-		prerequisite = { focus = POR_the_galician_question }
-		cost = 10
-		
-		mutually_exclusive = { focus = USA_passado_glorioso }
+		prerequisite = { focus = POR_passado_glorioso }
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -113,4 +638,199 @@ focus_tree = {
 		}
 	}
 	
+	focus = {
+		id = POR_the_king_of_all_portuguese
+		icon = GFX_focus_generic_monarchy_2
+		x = 0
+		y = 1
+		relative_position_id = POR_galicia_is_portugal_portugal_is_galicia
+		
+		prerequisite = { focus = POR_galicia_is_portugal_portugal_is_galicia }
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = POR_form_the_national_galician_youth
+		icon = GFX_goal_generic_secret_weapon
+		x = 0
+		y = 1
+		relative_position_id = POR_the_king_of_all_portuguese
+		
+		prerequisite = { focus = POR_the_king_of_all_portuguese }
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = POR_futuro_glorioso
+		icon = GFX_
+		x = 1
+		y = 1
+		relative_position_id = POR_the_galician_question
+		
+		prerequisite = { focus = POR_the_galician_question }
+		cost = 10
+		
+		mutually_exclusive = { focus = POR_passado_glorioso }
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = POR_the_glory_of_greater_portugal
+		icon = GFX_
+		x = 0
+		y = 1
+		relative_position_id = POR_futuro_glorioso
+		
+		prerequisite = { focus = POR_futuro_glorioso }
+		cost = 5
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = POR_the_future_belongs_to_portugal
+		icon = GFX_
+		x = 0
+		y = 1
+		relative_position_id = POR_the_glory_of_greater_portugal
+		
+		prerequisite = { focus = POR_the_glory_of_greater_portugal }
+		cost = 5
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = POR_liberated_from_spanish_opression
+		icon = GFX_
+		x = 0
+		y = 1
+		relative_position_id = POR_the_future_belongs_to_portugal
+		
+		prerequisite = { focus = POR_the_future_belongs_to_portugal }
+		cost = 5
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		}
+	
+	}
+	focus = {
+		id = POR_galicia_e_nossa
+		icon = GFX_
+		x = -1
+		y = 1
+		relative_position_id = POR_liberated_from_spanish_opression
+		
+		prerequisite = { focus = POR_liberated_from_spanish_opression focus = POR_form_the_national_galician_youth }
+		
+		cost = 5
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		171 = {
+		remove_core_of = SPR
+		add_core_of = POR
+		}
+		}
+	}
 }
