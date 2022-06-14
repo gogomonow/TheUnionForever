@@ -209,39 +209,13 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = USA_preparations
+		id = USA_propaganda
 		icon = GFX_lindbergs_speech
-		x = 0
+		x = -1
 		y = 1
 		relative_position_id = USA_Lindbergs_speech
 		
 		prerequisite = { focus = USA_Lindbergs_speech }
-		cost = 10
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-		
-		bypass = {
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		}
-	
-	focus = {
-		id = USA_propoganda
-		icon = GFX_lindbergs_speech
-		x = -1
-		y = 1
-		relative_position_id = USA_preparations
-		
-		prerequisite = { focus = USA_preparations }
 		cost = 10
 
 		ai_will_do = {
@@ -265,9 +239,9 @@ focus_tree = {
 		icon = GFX_lindbergs_speech
 		x = 1
 		y = 1
-		relative_position_id = USA_preparations
+		relative_position_id = USA_Lindbergs_speech
 		
-		prerequisite = { focus = USA_preparations }
+		prerequisite = { focus = USA_Lindbergs_speech }
 		cost = 10
 
 		ai_will_do = {
@@ -291,9 +265,9 @@ focus_tree = {
 		icon = GFX_lindbergs_speech
 		x = 0
 		y = 1
-		relative_position_id = USA_propoganda
+		relative_position_id = USA_propaganda
 		
-		prerequisite = { focus = USA_propoganda }
+		prerequisite = { focus = USA_propaganda }
 		cost = 10
 
 		ai_will_do = {
