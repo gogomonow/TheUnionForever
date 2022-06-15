@@ -1,0 +1,18 @@
+spriteTypes = {
+
+	
+	spriteType = {
+		name = "GFX_CM_subidea_pol_overlay"
+		texturefile = "gfx//subidea//CM_subidea_pol_overlay.png"  
+		legacy_lazy_load = no 
+	}
+
+	spriteType = {
+		name = "GFX_CM_subidea_diplo_overlay"
+		texturefile = "gfx//subidea//CM_subidea_diplo_overlay.png"  
+		legacy_lazy_load = no 
+	}
+
+	
+
+}

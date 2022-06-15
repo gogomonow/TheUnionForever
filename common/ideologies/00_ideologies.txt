@@ -257,6 +257,12 @@ ideologies = {
 			
 			fascism_ideology = {
 			}
+
+			corporatocracy = {
+			}
+
+			corporatism = {
+			}
 		}
 		
 		dynamic_faction_names = {

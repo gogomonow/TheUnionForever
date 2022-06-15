@@ -226,4 +226,26 @@ spriteTypes = {
 		texturefile = "gfx/leaders/VIR/George_Peery.dds"
 		
 	}
+	
+	### POR
+	
+	spriteType = {
+		name = "GFX_portrait_POR_jose_norton_de_matos"
+		texturefile = "gfx/leaders/POR/norton_de_matos.dds"
+		
+	}
+	
+	### MAN
+	
+	spriteType = {
+		name = "GFX_portrait_MAN_ivan_serebrennikov"
+		texturefile = "gfx/leaders/MAN/ivan_serebrennikov.dds"
+		
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_MAN_leonid_ustrugov"
+		texturefile = "gfx/leaders/MAN/leonid_ustrugov.dds"
+		
+	}
 }

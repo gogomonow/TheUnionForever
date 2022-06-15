@@ -8,7 +8,8 @@ set_technology = {
 	
 }
 
-recruit_character = MAN_aisin_gioro_puyi
+recruit_character = MAN_ivan_serebrennikov
+recruit_character = MAN_Leonid_Ustrugov
 recruit_character = MAN_zhang_haipeng
 recruit_character = MAN_zhang_jinghui
 recruit_character = MAN_aisin_gioro_xiqia
