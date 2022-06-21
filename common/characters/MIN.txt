@@ -1,0 +1,18 @@
+characters={
+	MIN_floyd_olson={
+		name= "Floyd Olson"
+		portraits={
+			civilian={
+				large=GFX_Floyd_Olson
+			}
+		}
+		country_leader={
+			ideology=liberalism_ideology
+			traits={ }
+			desc = POLITICS_FLOYD_OLSON_DESC
+			expire="1953.1.1.1"
+			id=-1
+		}
+	}
+
+}

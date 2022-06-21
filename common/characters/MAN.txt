@@ -9,6 +9,7 @@ characters={
 		country_leader={
 			ideology=corporatocracy 
 			traits={ }
+			desc = POLITICS_IVAN_SEREBRENNIKOV_DESC
 			expire="1953.1.1.1"
 			id=-1
 		}
@@ -24,6 +25,7 @@ characters={
 		country_leader={
 			ideology=corporatism 
 			traits={ }
+			desc = POLITICS_LEONID_USTRUGOV_DESC
 			expire="1953.1.1.1"
 			id=-1
 		}
