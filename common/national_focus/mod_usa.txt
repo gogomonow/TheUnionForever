@@ -210,7 +210,7 @@ focus_tree = {
 	
 	focus = {
 		id = USA_propaganda
-		icon = GFX_USA_propaganda
+		icon = GFX_lindbergs_speech
 		x = -1
 		y = 1
 		relative_position_id = USA_Lindbergs_speech
@@ -236,7 +236,7 @@ focus_tree = {
 		
 	focus = {
 		id = USA_threaten_opponents
-		icon = GFX_USA_threaten_opponents
+		icon = GFX_lindbergs_speech
 		x = 1
 		y = 1
 		relative_position_id = USA_Lindbergs_speech
@@ -261,8 +261,8 @@ focus_tree = {
 		}
 		
 	focus = {
-		id = USA_hit_the_road
-		icon = GFX_USA_hit_the_road
+		id = USA_tour
+		icon = GFX_lindbergs_speech
 		x = 0
 		y = 1
 		relative_position_id = USA_propaganda
@@ -288,7 +288,7 @@ focus_tree = {
 		
 	focus = {
 		id = USA_militia_violence
-		icon = GFX_USA_militia_violence
+		icon = GFX_lindbergs_speech
 		x = 0
 		y = 1
 		relative_position_id = USA_threaten_opponents
@@ -314,13 +314,13 @@ focus_tree = {
 		
 	focus = {
 		id = USA_coup_government
-		icon = GFX_USA_coup_government
+		icon = GFX_lindbergs_speech
 		x = -1
 		y = 1
 		relative_position_id = USA_militia_violence
 		
 		prerequisite = { focus = USA_militia_violence }
-		prerequisite = { focus = USA_hit_the_road }
+		prerequisite = { focus = USA_tour }
 		cost = 10
 
 		ai_will_do = {
@@ -341,7 +341,7 @@ focus_tree = {
 		
 	focus = {
 		id = USA_go_with_Cox
-		icon = GFX_USA_go_with_Cox
+		icon = GFX_lindbergs_speech
 		x = -1
 		y = 1
 		relative_position_id = USA_prepare_for_elections
@@ -367,7 +367,7 @@ focus_tree = {
 		
 	focus = {
 		id = USA_Dawes_is_best
-		icon = GFX_USA_Dawes_is_best
+		icon = GFX_lindbergs_speech
 		x = 1
 		y = 1
 		relative_position_id = USA_prepare_for_elections
@@ -499,7 +499,7 @@ focus_tree = {
 	
 	focus = {
 		id = USA_moderate
-		icon = GFX_USA_moderate
+		icon = GFX_lindbergs_speech
 		x = 1
 		y = 1
 		relative_position_id = USA_victory
@@ -527,7 +527,7 @@ focus_tree = {
 	
 	focus = {
 		id = USA_radical
-		icon = GFX_USA_radical
+		icon = GFX_lindbergs_speech
 		x = -1
 		y = 1
 		relative_position_id = USA_victory

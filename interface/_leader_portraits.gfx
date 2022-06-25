@@ -75,13 +75,6 @@ spriteTypes = {
 		texturefile = "gfx/leaders/INT/James_Allred.dds"
 	}
 	
-	### MIN
-	
-	spriteType = {
-		name = "GFX_Floyd_Olson"
-		texturefile = "gfx/leaders/MIN/Floyd_Olson.dds"
-	}
-	
 	### IOW
 	
 	spriteType = {
