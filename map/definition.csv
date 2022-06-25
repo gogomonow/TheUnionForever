@@ -1,4 +1,4 @@
-0;0;0;0;land;false;unknown;0
+﻿0;0;0;0;land;false;unknown;0
 1;230;81;119;lake;false;lakes;7
 2;0;0;55;land;false;forest;1
 3;0;0;205;land;false;forest;1
@@ -13239,3 +13239,6 @@
 13238;101;202;171;land;false;forest;2
 13239;227;185;179;land;false;mountain;2
 13240;187;79;133;land;true;mountain;2
+13241;109;171;79;land;false;desert;7
+13242;36;226;154;land;false;desert;7
+13243;44;80;134;land;false;desert;7
