@@ -123,7 +123,7 @@ focus_tree = {
 	
 	focus = {
 		id = USA_prepare_for_elections
-		icon = GFX_all_is_normal
+		icon = GFX_prepare_for_elections
 		x = 0
 		y = 1
 		relative_position_id = USA_all_is_normal
@@ -393,7 +393,7 @@ focus_tree = {
 		
 	focus = {
 		id = USA_coalminers
-		icon = GFX_lindbergs_speech
+		icon = GFX_steel_workers
 		x = 2
 		y = 1
 		relative_position_id = USA_general_strike
@@ -419,7 +419,7 @@ focus_tree = {
 	
 	focus = {
 		id = USA_rust_belt
-		icon = GFX_lindbergs_speech
+		icon = GFX_steel_workers
 		x = 0
 		y = 1
 		relative_position_id = USA_general_strike
@@ -445,7 +445,7 @@ focus_tree = {
 	
 	focus = {
 		id = USA_steel_workers
-		icon = GFX_lindbergs_speech
+		icon = GFX_steel_workers
 		x = -2
 		y = 1
 		relative_position_id = USA_general_strike
@@ -471,7 +471,7 @@ focus_tree = {
 	
 	focus = {
 		id = USA_victory
-		icon = GFX_lindbergs_speech
+		icon = GFX_victory
 		x = 0
 		y = 1
 		relative_position_id = USA_rust_belt

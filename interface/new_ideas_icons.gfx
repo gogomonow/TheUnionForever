@@ -1,6 +1,18 @@
 spriteTypes = {	
 
 	SpriteType = {
+		name = "GFX_idea_isolation"
+		texturefile = "gfx/interface/ideas/isolation.dds"
+	}	
+	SpriteType = {
+		name = "GFX_idea_struggling_economy"
+		texturefile = "gfx/interface/ideas/struggling_economy.dds"
+	}	
+	SpriteType = {
+		name = "GFX_idea_incompitent_military"
+		texturefile = "gfx/interface/ideas/incompitent_military.dds"
+	}	
+	SpriteType = {
 		name = "GFX_idea_american_collapse"
 		texturefile = "gfx/interface/ideas/american_collapse.dds"
 	}	

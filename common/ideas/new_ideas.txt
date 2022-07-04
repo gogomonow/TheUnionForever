@@ -1,4 +1,85 @@
 ideas = {
+	
+	country = {
+		isolation = {
+			picture = GFX_idea_isolation
+			
+			allowed = {
+				tag = USA
+			}
+			
+			available = {
+			}
+			
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				trade_opinion_factor = -0.2
+			}
+		}
+	}
+	
+	country = {
+		struggling_economy = {
+			picture = GFX_idea_struggling_economy
+			
+			allowed = {
+				tag = USA
+			}
+			
+			available = {
+			}
+			
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_buildings_factor = -0.1
+				production_factory_efficiency_gain_factor = -0.15
+			}
+		}
+	}
+	
+	country = {
+		incompitent_military = {
+			picture = GFX_idea_incompitent_military
+			
+			allowed = {
+				tag = USA
+			}
+			
+			available = {
+			}
+			
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.05
+				defence = -0.1
+				offence = -0.1
+			}
+		}
+	}
 
 	country = {
 		american_collapse = {

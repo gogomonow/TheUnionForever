@@ -140,6 +140,9 @@ set_popularities = {
 add_ideas = {
 	american_collapse
 	radicals
+	incompitent_military
+	struggling_economy
+	isolation
 }
 
 recruit_character = USA_upton_sinclair

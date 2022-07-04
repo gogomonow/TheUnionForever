@@ -1,5 +1,11 @@
 ﻿l_english:
  american_collapse:0 "American Collapse"
- american_collapse_desc:0 "North America is not the most stable place after the collapse of the USA."
+ american_collapse_desc:0 "After the collapse of the USA North America has been a place of economic hardship and petty warfare for generations."
  radicals:0 "Radicals"
- radicals_desc:0 "Dangerous radicals threaten our country."
+ radicals_desc:0 "Because of our weak political stance dangerous radicals threaten our country in hopes of bringing about radical change and ending the decades of strife by force."
+ incompitent_military:0 "Incompitent Military"
+ incompitent_military_desc:0 "After most of our military betrayed us and fled to the plains with Custer in the 1870s we have never been able to recover a compitent military since."
+ struggling_economy:0 "Struggling Economy"
+ struggling_economy_desc:0 "The collapse of America made our economy take a massive hit. Without so much of the resources that made our nation's economy strong we haven't been able to be competitive on the world stage at all."
+ isolation:0 "Isolation"
+ isolation_desc:0 "When we collapsed we, like most of our neigbors retreated into isolaitonism in orger to take better care of our citizens. This has resulted in a strained and distrusting relationship between us and the rest of the world, with little trade going on between us and them."
