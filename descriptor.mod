@@ -6,4 +6,4 @@ tags={
 	"National Focuses"
 }
 name="The Union Forever: Sherman's Nightmare"
-supported_version="1.11.11"
+supported_version="1.11.12"
