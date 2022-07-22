@@ -1,0 +1,33 @@
+﻿###########################
+# PRA Events
+###########################
+
+add_namespace = pra
+country_event = {
+	id = pra.1
+	title = pra.1.t
+	desc = pra.1.desc
+	picture = GFX_report_event_pershing_pra_start
+
+	#is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = NEB
+		date < 1936.1.2
+	}
+	
+	mean_time_to_happen = {
+	hours = 1
+    days = 0
+    years = 0
+	}
+	
+	option = {
+		name = pra.1.a
+		ai_chance = { 
+			factor = 100 
+		}
+	}
+}
